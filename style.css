@@ -1,0 +1,90 @@
+body{
+    background: #f0e3e3; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+input {
+	width: 70%;
+    padding: 12px 15px; 
+    background-color: #f0e3e3;
+}
+
+
+button {
+    margin: 4px;
+    font-size: 15px;
+	font-weight: bold;
+	padding: 12px 45px;
+	border-radius: 30px;
+	background-color: #FF416C;
+	border: 1px solid #FF416C;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: transform 20ms ease-in;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+.container {
+  width: 950px;
+  height: 500px;
+  text-align: center;
+  /* Estas 3 lineas se encargan de centrar el div vertical y horizontalmente */
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden; 
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+#calc {
+    background-color: #f0ebee;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#detail{
+    background: #FF416C;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.content{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    padding: 40px;
+}
+
+li{
+    margin: 4px;
+}
+
+#error{
+    color: red;
+    font-weight: bold;
+    /* display: none; */
+}
+
+.result{
+    color: #0A81D1;
+    font-weight: bold;
+    font-size: 20px;
+    /* display: none; */
+}
+
+table, th, td {
+  background-color: #f0e3e3;  
+  margin: 10px;
+  border: 1px solid white;
+  padding: 4px;
+}
