@@ -32,7 +32,6 @@ button:active {
   width: 950px;
   height: 500px;
   text-align: center;
-  /* Estas 3 lineas se encargan de centrar el div vertical y horizontalmente */
   position: absolute;
   inset: 0;
   margin: auto;
