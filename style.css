@@ -68,11 +68,6 @@ li{
     margin: 4px;
 }
 
-#error{
-    color: red;
-    font-weight: bold;
-    display: none;
-}
 
 .result{
     color: #0A81D1;
