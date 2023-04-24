@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded',()=>{
 const BOTON = document.querySelector('#buttonCalc');
 const TABLE = document.querySelector('#tableCalc');
 const TBODY  =  document.querySelector('#tableCalc tbody');
@@ -151,3 +152,4 @@ INPUT.addEventListener('input', (event)=>{
         mensajeDeError(weight);
     }   
 });
+)
