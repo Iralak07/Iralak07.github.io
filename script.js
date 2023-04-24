@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     TABLE.style = 'display:none';
     TABLESC.style = 'display:none';
     BOTON.setAttribute('disabled',true);
+}
 
 
 
@@ -152,4 +153,3 @@ document.addEventListener('DOMContentLoaded',()=>{
             mensajeDeError(weight);
         }   
     });
-)
